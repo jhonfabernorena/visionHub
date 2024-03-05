@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisionHub</title>
+    <link rel="stylesheet" href="/Visionhub/css/stylesExploreView.css">
+</head>
+
+<body>
+    <div data-aos="fade-down">
+        
+        <nav class="nav1">
+            
+            <h1 ><img src="/Visionhub/img/logocompleto.png" alt="logo"></h1>
+            <div class="nav2">
+
+                
+                <a href="">FAQ</a>
+                <a href="">Contac Us</a>
+                <a href="/Visionhub/html/login.html">Log in</a>
+                <a href="/Visionhub/html/create.html"><button class="btn1"><b>Sign up</b></button></a>
+            </div>
+
+        </nav>
+    </div>
+    
+    <h2 class="creation-text">START INVESTING</h2>
+    <section class="main-section">
+        <div class="bar-container">
+            
+            <form action="#" method="get" class="search-form">
+                <input type="text" name="search" placeholder="Explore investments" class="search-input"> 
+        </div>
+            </form>
+                <!-- Desplegables para filtrar categorías -->
+                <div class="filter-dropdowns">
+                    <!-- Primer desplegable para la primera categoría -->
+                    <select class="filter-select" id="filter-sector">
+                        <option value="" disabled selected>Sector</option>
+                        <!-- Opciones de categoría 1 -->
+                        <option value="technology">Technology</option>
+                        <option value="health">Health</option>
+                        <option value="finance">Finance</option>
+                        <option value="education">Education</option>
+                        <option value="agriculture">Agriculture</option>
+                        <option value="manufacturing">Manufacturing</option>
+                        <option value="energy">Energy</option>
+                        <option value="services">Services</option>
+                        <!-- Estas opciones deberán ser actualizadas con las categorías disponibles -->
+                    </select>
+                
+                    <!-- Segundo desplegable para la segunda categoría -->
+                    <select class="filter-select" id="filter-status">
+                        <option value="" disabled selected>Status</option>
+                        <option value="in-development">In development</option>
+                        <option value="pilot-phase">Pilot phase</option>
+                        <option value="established">Established</option>
+                        <!-- Opciones de categoría 2 -->
+                        <!-- Estas opciones deberán ser actualizadas con las subcategorías disponibles -->
+                    </select>
+                </div>
+        
+        
+        <!-- Ofertas sección -->
+        <section class="startups-section" id="startups-section">
+            <h2>FUNDING ROUNDS</h2>
+            <div id="startup-container" class="startup-container">
+                <!-- Aquí se agregarán dinámicamente las tarjetas de ofertas mediante JavaScript -->
+            </div>
+        </section>
+</section>
+
+    <!-- Agregamos un script para manejar las ofertas dinámicamente -->
+    <script src="/Visionhub/js/ExploreView.js"></script>
+</body>
+
+</html>

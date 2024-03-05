@@ -1,0 +1,201 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(/Visionhub/img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-size: 100% 100%;
+
+    
+}
+
+
+
+
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    max-width: 300px; 
+    margin: auto; 
+    gap: 30px;
+}
+
+
+.form-container label {
+    margin-bottom: 5px;
+}
+
+.form-container input {
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+}
+
+
+.hero {
+    flex: 1; 
+    padding: 20px; 
+}
+.hero main h4 a {
+    color: #ff3500; 
+    text-decoration: none;
+}
+.hero main h4 a:hover {
+  color: #ff7f50; 
+}
+
+.form {
+    flex: 1; 
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.274); 
+    border-radius: 30px;
+    max-width: 600px;
+    margin: auto; 
+    }
+    
+
+
+
+.btn{
+    background-color: #ff3500;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 5px 15px; 
+    font-size: 16px; 
+    margin-top: 10px;
+}
+.btn:hover {
+    background-color: #ff7f50;
+    
+
+}
+
+h4{
+    font-size: 25px; 
+    font-weight: bold;
+    color: azure;
+}
+
+h1{
+    font-size: 70px;
+    color: azure;
+}
+
+h2{
+    color: azure;
+}
+
+p{
+    color: azure;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.288);
+    border: none;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+
+
+input::placeholder {
+    color: white;
+}
+ input[type="date"] {
+     color: white;
+ }
+
+ .form-container label {
+     color: white;
+ }
+
+
+ footer {
+    background-color:#182052;
+    color: #fff;
+    padding: 50px;
+    margin: 0%;
+    width: 100%;
+  }
+
+  
+  .contenedorfooter {
+    display: flex;
+    justify-content: space-around;
+  }
+
+footer img{
+    margin: 0 50px;
+}
+  
+  .redes {
+    text-align: center;
+    
+  }
+  
+  .redes i {
+    font-size: 50px;
+    margin: 30px;
+    color: #fff;
+  }
+  
+  .legalabout {
+    display: flex;
+  }
+  
+  .legal, 
+  .about {
+    padding: 50px 70px; 
+    font-size: 30px; 
+  }
+  
+  .legal h3,
+  .about h3 {
+    margin-bottom: 10px;
+    color: #FF3500;
+  }
+  
+  .legal a,
+  .about a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: normal;
+  }
+
+
+  .legal :hover{
+    text-decoration: underline;
+  }
+  .about :hover{
+    text-decoration: underline;
+  }
+

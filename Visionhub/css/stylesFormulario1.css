@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(/Visionhub/img/computador.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    
+}
+
+.main-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: #ff3500;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    margin: 0;
+}
+
+
+
+.creation-text{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 25px;
+    
+}
+.top-link:hover {
+    color: #ff3500; 
+}
+
+.btn {
+    background-color: #ff3500;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 5px 15px; 
+    font-size: 16px; 
+    margin-top: 10px;
+}	
+
+
+
+
+
+.points {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.points div {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.filled-point {
+    background-color: #ff3500;
+}
+
+.creation-text {
+    margin-top: 10px;
+}
+
+.project-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-row {
+    flex: 0 0 48%;
+}
+
+.project-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.project-form input {
+    padding: 8px; 
+    width: 100%;
+    border-radius: 30px;
+    box-sizing: border-box;
+    font-size: 14px; 
+}
+
+.project-form button {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #ff3500;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-top: auto; 
+}

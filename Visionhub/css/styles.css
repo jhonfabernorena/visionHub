@@ -1,0 +1,322 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+   
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.b{
+    color: #FF3500;
+    font-weight: bold;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    
+}
+body{
+    background: rgb(0,1,10);
+    background: linear-gradient(322deg, rgba(0,1,10,1) 30%, #182052 98%);;
+    /* overflow: hidden; */
+    min-height: 100vh;
+}
+img{
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.log{
+    position: absolute;
+    top: 10px;
+
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav1  {
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 70px;
+}
+
+.nav2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.btn1 {
+    
+    padding: 8px 30px;
+    background-color: #FF3500;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-right: auto;
+    
+}
+
+.btn2 {
+    
+    padding: 10px 20px;
+    background-color: #FF3500;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-right: auto;
+    font-size: 18px;
+    
+}
+
+
+.contenedor{
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.text{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.text1{
+    grid-area: 10px;
+    color: #83979E;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+
+
+.sec1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sec1 h2{
+    font-size: 30px;
+}
+
+.sec1 .text3{
+    padding: 20px 100px;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    
+}
+
+.sec2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.sec2 span {
+    display: flex;
+    justify-content: center;
+    padding: 30px 50px;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+    align-items: center;
+    
+}
+
+.d1{
+    display: block;
+    
+    
+}
+
+.d1 p {
+    color: #83979E;
+    margin: 5px 0 0 30px;
+    font-size: small;
+}
+
+.vie{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 560px;
+
+}
+
+.espacio{
+    margin-bottom: 200px;
+    
+}
+
+.sec3{
+    padding: 20px 100px;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+}
+
+.sec3 h2{
+    font-size: 50px;
+}
+
+.texsec3{
+    font-size: 25px;
+}
+
+.textosec3{
+    font-size: 45px;
+}
+
+.sec4{
+    padding: 100px 140px;
+    color: white;
+    display: flex;
+    justify-content:space-around;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.sec4 h2 {
+    font-size: 50px;
+}
+
+.textsec4{
+    color: white;
+    font-size: 38px;
+}
+
+footer {
+    background-color:#182052;
+    color: #fff;
+    padding: 50px;
+  }
+
+  
+  .contenedorfooter {
+    display: flex;
+    justify-content: space-around;
+  }
+
+footer img{
+    margin: 0 50px;
+}
+  
+  .redes {
+    text-align: center;
+    
+  }
+  
+  .redes i {
+    font-size: 50px;
+    margin: 30px;
+    color: #fff;
+  }
+  
+  .legalabout {
+    display: flex;
+  }
+  
+  .legal, 
+  .about {
+    padding: 50px 70px; 
+    font-size: 30px; 
+  }
+  
+  .legal h3,
+  .about h3 {
+    margin-bottom: 10px;
+    color: #FF3500;
+  }
+  
+  .legal a,
+  .about a {
+    display: block;
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: normal;
+  }
+
+  .legal :hover{
+    text-decoration: underline;
+  }
+  .about :hover{
+    text-decoration: underline;
+  }
+
+
+
+/* Agregué algunas media queries */
+
+@media (max-width: 768px) {
+
+    .nav1 { 
+      flex-direction: column;
+      padding: 20px;
+    }
+    
+    .nav2 {
+      flex-direction: column;
+      margin-top: 20px; 
+    }
+    
+    .contenedor {
+      flex-direction: column;
+    }
+    
+    .sec2 {
+      flex-direction: column;
+    }
+  
+    .sec3, 
+    .sec4 {
+      flex-direction: column;
+      text-align: center; 
+    }
+    
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+  }
+  
+  @media (max-width: 480px) {
+  
+    .text {
+      font-size: 30px; 
+    }
+    
+    .btn2 {
+      width: 100%;
+    }
+  
+  }

@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header img {
+    width: 100%; /* Cambiado a un porcentaje para ocupar todo el ancho disponible */
+    height: auto;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ff3500;
+}
+
+.vertical-line {
+    height: 40px;
+    width: 2px;
+    background-color: #333;
+    margin-left: 10px;
+}
+
+.profile-logo {
+    width: 25px;
+    height: 25px;
+}
+
+.content-section {
+    display: flex;
+    flex: 1; /* Hace que este contenedor crezca para ocupar el espacio restante */
+    padding: 10px;
+}
+
+.red-block {
+    width: 25vw;
+    background-color: red;
+    height: 20vh;
+    border-radius: 30px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1; /* Hace que este contenedor crezca para ocupar el espacio restante */
+}
+
+.lorem {
+    color: aliceblue;
+}
+
+.small-rectangle,
+.large-rectangle {
+    width: 5vw;
+    background-color: red;
+    height: 2vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 2px;
+    height: 100%; /* Asegura que la línea horizontal tenga la altura completa */
+    margin: 0 10px; /* Añadido margen a ambos lados para separar del contenido */
+    
+}
